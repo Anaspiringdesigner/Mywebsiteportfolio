@@ -31,7 +31,7 @@ body {
 .amfestob,
 .cpsvideo1,
 .thesubbox,
-.tihvideo1,
+.tih,
 .footer1 {
     width: 75vw;
     display: flex;
@@ -167,6 +167,47 @@ body {
     display: flex;
     margin-left: auto;
     color: #DFFF00;
+}
+
+/* The styling of the terrible ideas hackathon video. */
+
+.tihvideo {
+    justify-content: center;
+}
+
+.tih {
+    justify-content: space-between;
+}
+
+.tihvideo1,
+.tihvideo2 {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    padding: 24px;
+}
+
+.tihvideo1 iframe {
+    height: 46vh;
+    width: auto;
+    border-radius: 16px;
+}
+
+.tihvideo2 {
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+}
+
+.text {
+    color: #000080;
+    font-size: 24px;
+}
+
+.txt button {
+    background-color: #000080;
+    padding: 16px;
+    border-radius: 16px;
 }
 
 /* The footer which is common for all the pages */
