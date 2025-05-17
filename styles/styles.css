@@ -32,3 +32,75 @@ body {
 .footer1 {
     width: 75vw;
 }
+
+/* Declaring the header style */
+
+.headbig  {
+    background-color: #000080;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    gap: 16px; justify-content: space-between;
+    padding: 24px;
+    height: 5vh;
+}
+
+.right {
+    display: flex;
+    gap: 32px;;
+}
+
+.right a:link, .right a:visited {
+    color: #DFFF00;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.right a:hover, .right a:active {
+    color: #DFFF00;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.left a:link, .left a:visited {
+    color: #DFFF00;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.left a:hover, .left a:active {
+    color: #DFFF00;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* Declaring the welcome style */
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    background-color: #000080;
+    padding: 24px;
+    gap: 32px;
+}
+
+.welcome img {
+    width: 75vw;
+    border-radius: 8px;
+}
+
+.wel {
+    display: flex;
+    align-self: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #DFFF00;
+    gap: 32px;
+}
