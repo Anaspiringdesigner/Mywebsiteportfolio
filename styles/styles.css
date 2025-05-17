@@ -1,0 +1,34 @@
+/* Declaration to set margins, and make everything border-box */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Font setting for the whole website */
+
+body {
+    font-size: "Merriweather", serif;
+}
+
+/* Colors the backgrounds of the top-level containers */
+
+.headbig,
+.amfesto,
+.cpsvideo,
+.tihvideo,
+.footer {
+    width: 100vw;
+}
+
+/* Setting the sub container's width */
+
+.header,
+.welcome,
+.amfestob,
+.cpsvideo1,
+.tihvideo1,
+.footer1 {
+    width: 75vw;
+}
