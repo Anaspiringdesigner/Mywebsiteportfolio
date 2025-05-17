@@ -20,6 +20,8 @@ body {
 .tihvideo,
 .footer {
     width: 100vw;
+    padding: 24px;
+    display: flex;
 }
 
 /* Setting the sub container's width */
@@ -31,22 +33,21 @@ body {
 .tihvideo1,
 .footer1 {
     width: 75vw;
+    display: flex;
+    padding: 24px;
 }
 
 /* Declaring the header style */
 
 .headbig  {
     background-color: #000080;
-    padding: 24px;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .header {
-    display: flex;
-    gap: 16px; justify-content: space-between;
-    padding: 24px;
+    gap: 16px; 
+    justify-content: space-between;
     height: 5vh;
 }
 
@@ -84,10 +85,8 @@ body {
 /* Declaring the welcome style */
 
 .welcome {
-    display: flex;
     flex-direction: column;
     background-color: #000080;
-    padding: 24px;
     gap: 32px;
 }
 
@@ -104,3 +103,49 @@ body {
     color: #DFFF00;
     gap: 32px;
 }
+
+.cpsvideo {
+    justify-content: center;
+}
+
+.cpsvideo1 {
+    justify-content: center;
+}
+
+.cpsvideo1 iframe {
+    width: 75vw;
+    height: 60vh;
+    border-radius: 16px;
+}
+
+.amfesto {
+    background-color: #1E2952;
+    justify-content: center;
+}
+
+.amfestob {
+    flex-direction: column;
+    gap: 36px;
+}
+
+.festo {
+    font-size: 36px;
+    font-style: italic;
+    color: #FFA000;
+}
+
+.me {
+    display: flex;
+    margin-left: auto;
+    color: #DFFF00;
+}
+
+.footer {
+    background-color: #1E2952;
+    justify-content: center;
+}
+
+.footer1 {
+    justify-content: center;
+}
+
