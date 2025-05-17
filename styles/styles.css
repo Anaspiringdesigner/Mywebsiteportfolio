@@ -30,6 +30,7 @@ body {
 .welcome,
 .amfestob,
 .cpsvideo1,
+.thesubbox,
 .tihvideo1,
 .footer1 {
     width: 75vw;
@@ -108,10 +109,34 @@ body {
 
 .cpsvideo {
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.thesubbox {
+    justify-content: space-around;
 }
 
 .cpsvideo1 {
     justify-content: center;
+}
+
+.cpsvcap {
+    width: 50vw;
+    font-size: 24px;
+    color: #000080;
+}
+
+.cpsvcap1 {
+    align-self: center;
+}
+
+.cpsvcap1 button {
+    padding: 16px;
+    color: #1E2952;
+    background-color: #000080;
+    border-radius: 16px;
 }
 
 .cpsvideo1 iframe {
@@ -147,14 +172,14 @@ body {
 /* The footer which is common for all the pages */
 
 .footer {
-    background-color: #1E2952;
+    background-color: #000080;
     justify-content: center;
 }
 
 .footer1 {
     justify-content: space-between;
     font-size: 18px;
-    color: #FFA000;
+    color: #DFFF00;
     align-items: center;
 }
 
