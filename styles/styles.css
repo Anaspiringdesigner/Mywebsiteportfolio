@@ -104,6 +104,8 @@ body {
     gap: 32px;
 }
 
+/* Adding the video of the cps cohort from youtube. */
+
 .cpsvideo {
     justify-content: center;
 }
@@ -117,6 +119,8 @@ body {
     height: 60vh;
     border-radius: 16px;
 }
+
+/* My Artist manifesto */
 
 .amfesto {
     background-color: #1E2952;
@@ -140,12 +144,33 @@ body {
     color: #DFFF00;
 }
 
+/* The footer which is common for all the pages */
+
 .footer {
     background-color: #1E2952;
     justify-content: center;
 }
 
 .footer1 {
-    justify-content: center;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #FFA000;
+    align-items: center;
 }
 
+button {
+    padding: 1px;
+    border-radius: 8px;
+}
+
+.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt a i {
+    color: #FFA000;
+    width: 2.5vw;
+    height: 2.5vw
+}
