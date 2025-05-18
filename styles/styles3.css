@@ -1,0 +1,163 @@
+/* Declaration to set margins, and make everything border-box */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Font setting for the whole website */
+
+body {
+    font-size: "Merriweather", serif;
+}
+
+/* Colors the backgrounds of the top-level containers */
+
+.headbig,
+.thehumg,
+.hua2,
+.tih,
+.hua1,
+.de10,
+.footer {
+    width: 100vw;
+    padding: 24px;
+    display: flex;
+}
+
+/* Setting the sub container's width */
+
+.header,
+.grantdesc,
+.footer1 {
+    width: 75vw;
+    display: flex;
+    padding: 24px;
+}
+
+/* Declaring the header style */
+
+.headbig  {
+    background-color: #000080;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    gap: 16px; 
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.right {
+    display: flex;
+    gap: 32px;;
+}
+
+.right a:link, .right a:visited {
+    color: #DFFF00;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.right a:hover, .right a:active {
+    color: #DFFF00;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.left a:link, .left a:visited {
+    color: #DFFF00;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.left a:hover, .left a:active {
+    color: #DFFF00;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* The humanitarian grant styling */
+
+.thehumg {
+    justify-content: center;
+    background-color: #DFFF00;
+}
+
+.grantdesc {
+    flex-direction: column;
+    align-items: center;
+}
+
+.mage img {
+    width:75vw;
+    height: auto;
+    border-radius: 32px;
+    padding: 24px;
+}
+
+.desc {
+    color: #000080;
+    font-size: 24px;
+}
+
+/* The huawei phase 2 grant */
+
+.hua2 {
+    justify-content: center;
+}
+
+/* The Terrible ideas hackathon */
+
+.tih {
+    justify-content: center;
+    background-color: #FFA000;
+}
+
+/* The Huawei phase 1 best prototyping award. */
+
+.hua1 {
+    justify-content: center;
+}
+
+/* DE10 Hackathon */
+
+.de10 {
+    justify-content: center;
+    background-color: #DFFF00;
+}
+
+/* The footer which is common for all the pages */
+
+.footer {
+    background-color: #000080;
+    justify-content: center;
+}
+
+.footer1 {
+    justify-content: space-between;
+    font-size: 18px;
+    color: #DFFF00;
+    align-items: center;
+}
+
+button {
+    padding: 1px;
+    border-radius: 8px;
+}
+
+.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt a i {
+    color: #FFA000;
+    width: 2.5vw;
+    height: 2.5vw
+}
