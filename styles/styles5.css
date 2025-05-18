@@ -1,0 +1,185 @@
+/* Declaration to set margins, and make everything border-box */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Font setting for the whole website */
+
+body {
+    font-size: "Merriweather", serif;
+}
+
+/* Colors the backgrounds of the top-level containers */
+
+.headbig,
+.briefbig,
+.tpic,
+.reelbig,
+.nms,
+.footer {
+    width: 100vw;
+    padding: 24px;
+    display: flex;
+}
+
+/* Setting the sub container's width */
+
+.header,
+.brief,
+.tp,
+.reel,
+.names,
+.footer1 {
+    width: 75vw;
+    display: flex;
+    padding: 24px;
+}
+
+/* Declaring the header style */
+
+.headbig  {
+    background-color: #DFFF00;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    gap: 16px; 
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.right {
+    display: flex;
+    gap: 32px;;
+}
+
+.right a:link, .right a:visited {
+    color: #000080;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.right a:hover, .right a:active {
+    color: #000080;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.left a:link, .left a:visited {
+    color: #000080;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.left a:hover, .left a:active {
+    color: #000080;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* The brief */
+
+.briefbig {
+    justify-content: center;
+}
+
+.brief {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.top {
+    color: #000080;
+    font-size: 36px;
+}
+
+.bot {
+    display: flex;
+    color: #1E2952;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+/* The pic */
+
+.tpic {
+    justify-content: center;
+    background-color: #FAA000;
+}
+
+.tp img {
+    width: 75vw;
+    height: auto;
+    border-radius: 32px;
+}
+
+/* The reel */
+
+.reelbig {
+    justify-content: center;
+}
+
+.reel {
+    justify-content: center;
+}
+
+.reel iframe {
+    width: auto;
+    height: 50vh;
+    border-radius: 16px;
+}
+
+/* The names */
+
+.nms {
+    justify-content: center;
+}
+
+.names {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.names .top {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+/* The footer which is common for all the pages */
+
+.footer {
+    background-color: #DFFF00;
+    justify-content: center;
+}
+
+.footer1 {
+    justify-content: space-between;
+    font-size: 18px;
+    color: #000080;
+    align-items: center;
+}
+
+button {
+    padding: 1px;
+    border-radius: 8px;
+}
+
+.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt a i {
+    color: #1E2952;
+    width: 2.5vw;
+    height: 2.5vw
+}
