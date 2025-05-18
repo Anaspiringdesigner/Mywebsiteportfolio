@@ -15,6 +15,7 @@ body {
 /* Colors the backgrounds of the top-level containers */
 
 .headbig,
+.welcome,
 .amfesto,
 .cpsvideo,
 .tihvideo,
@@ -27,7 +28,7 @@ body {
 /* Setting the sub container's width */
 
 .header,
-.welcome,
+.welcomesub,
 .amfestob,
 .cpsvideo1,
 .thesubbox,
@@ -86,14 +87,18 @@ body {
 /* Declaring the welcome style */
 
 .welcome {
-    flex-direction: column;
+    justify-content: center;
     background-color: #000080;
+}
+
+.welcomesub {
+    flex-direction: column;
     gap: 32px;
 }
 
-.welcome img {
-    width: 75vw;
-    border-radius: 8px;
+.mage img {
+    width: 71vw;
+    border-radius: 16px;
 }
 
 .wel {
