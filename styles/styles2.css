@@ -17,6 +17,7 @@ body {
 .headbig,
 .pvstatement,
 .hobint,
+.mediumstories,
 .footer {
     width: 100vw;
     padding: 24px;
@@ -29,6 +30,7 @@ body {
 .welcome,
 .pvs,
 .hobint1,
+.frames,
 .footer1 {
     width: 75vw;
     display: flex;
@@ -96,21 +98,39 @@ body {
 .selfintro {
     width: 30vw;
     display: flex;
+    flex-direction: column;
     font-size: 48px;
     color: #000080;
     align-self: center;
+    gap: 16px;
+}
+
+.selfintro .low {
+    color: #1E2952;
+    font-size: 18px;
+    padding: 24px;
+    margin-left: auto;
 }
 
 /* Personal Vision Statement */
 
 .pvstatement {
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .pvs {
     font-size: 36px;
     color: #1E2952;
     font-style: italic;
+    flex-direction: column;
+}
+
+.pvs .low {
+    font-size: 18px;
+    color: #000080;
+    margin-left: auto;
 }
 
 /* Interests and Hobbies */
@@ -126,6 +146,30 @@ body {
     color: #1E2952;
     gap: 32px;
 }
+
+.hobint1 .low {
+    color: #000080;
+    font-size: 18px;
+    display: flex;
+    margin-left: auto;
+}
+
+/* Medium story links */
+
+.mediumstories {
+    justify-content: center;
+}
+
+.frames {
+    justify-content: space-between;
+}
+
+.frames a img {
+    width: 20vw;
+    height: auto;
+    border-radius: 16px;
+}
+
 /* The footer which is common for all the pages */
 
 .footer {
