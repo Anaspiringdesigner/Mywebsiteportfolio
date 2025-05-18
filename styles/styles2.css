@@ -15,9 +15,7 @@ body {
 /* Colors the backgrounds of the top-level containers */
 
 .headbig,
-.amfesto,
-.cpsvideo,
-.tihvideo,
+.pvstatement,
 .footer {
     width: 100vw;
     padding: 24px;
@@ -28,10 +26,7 @@ body {
 
 .header,
 .welcome,
-.amfestob,
-.cpsvideo1,
-.thesubbox,
-.tih,
+.pvs,
 .footer1 {
     width: 75vw;
     display: flex;
@@ -92,121 +87,33 @@ body {
 }
 
 .welcome img {
-    width: 35vw;
+    width: 30vw;
     border-radius: 700px;
 }
 
 .selfintro {
+    width: 30vw;
+    display: flex;
     font-size: 48px;
     color: #000080;
-    display: flex;
     align-self: center;
 }
 
-/* Adding the video of the cps cohort from youtube. */
+/* Personal Vision Statement */
 
-.cpsvideo {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.thesubbox {
-    justify-content: space-around;
-}
-
-.cpsvideo1 {
+.pvstatement {
     justify-content: center;
 }
 
-.cpsvcap {
-    width: 50vw;
-    font-size: 24px;
-    color: #000080;
-}
-
-.cpsvcap1 {
-    align-self: center;
-}
-
-.cpsvcap1 button {
-    padding: 16px;
-    color: #1E2952;
-    background-color: #000080;
-    border-radius: 16px;
-}
-
-.cpsvideo1 iframe {
-    width: 75vw;
-    height: 60vh;
-    border-radius: 16px;
-}
-
-/* My Artist manifesto */
-
-.amfesto {
-    background-color: #1E2952;
-    justify-content: center;
-}
-
-.amfestob {
-    flex-direction: column;
-    gap: 36px;
-}
-
-.festo {
+.pvs {
     font-size: 36px;
+    color: #1E2952;
     font-style: italic;
-    color: #FFA000;
 }
 
-.me {
-    display: flex;
-    margin-left: auto;
-    color: #DFFF00;
-}
+/* Interests and Hobbies */
 
-/* The styling of the terrible ideas hackathon video. */
 
-.tihvideo {
-    justify-content: center;
-}
-
-.tih {
-    justify-content: space-between;
-}
-
-.tihvideo1,
-.tihvideo2 {
-    display: flex;
-    justify-content: center;
-    width: 30vw;
-    padding: 24px;
-}
-
-.tihvideo1 iframe {
-    height: 46vh;
-    width: auto;
-    border-radius: 16px;
-}
-
-.tihvideo2 {
-    flex-direction: column;
-    gap: 32px;
-    justify-content: center;
-}
-
-.text {
-    color: #000080;
-    font-size: 24px;
-}
-
-.txt button {
-    background-color: #000080;
-    padding: 16px;
-    border-radius: 16px;
-}
 
 /* The footer which is common for all the pages */
 
