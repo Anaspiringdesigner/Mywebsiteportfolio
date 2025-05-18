@@ -84,6 +84,47 @@ body {
     font-weight: 900;
 }
 
+.dropbtn {
+    background-color: #000080;
+    color: #DFFF00;
+    font-size: 18px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000080;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px #000080;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #DFFF00;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #000080;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000080;
+}
+
+
 /* Declaring the welcome style */
 
 .welcome {
@@ -97,7 +138,7 @@ body {
 }
 
 .mage img {
-    width: 71vw;
+    width: 72vw;
     border-radius: 16px;
 }
 
