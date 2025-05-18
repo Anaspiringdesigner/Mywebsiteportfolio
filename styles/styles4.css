@@ -1,0 +1,250 @@
+/* Declaration to set margins, and make everything border-box */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Font setting for the whole website */
+
+body {
+    font-size: "Merriweather", serif;
+}
+
+/* Colors the backgrounds of the top-level containers */
+
+.headbig,
+.briefbig,
+.responsebig,
+.inspre,
+.proto,
+.finalbig,
+.learnbig,
+.teambig,
+.footer {
+    width: 100vw;
+    padding: 24px;
+    display: flex;
+}
+
+/* Setting the sub container's width */
+
+.header,
+.brief,
+.response,
+.insp,
+.final,
+.learn,
+.team,
+.footer1 {
+    width: 75vw;
+    display: flex;
+    padding: 24px;
+}
+
+/* Declaring the header style */
+
+.headbig  {
+    background-color: #DFFF00;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    gap: 16px; 
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.left {
+    display: flex;
+    gap: 32px;
+}
+
+.right {
+    display: flex;
+    gap: 32px;;
+}
+
+.right a:link, .right a:visited {
+    color: #000080;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.right a:hover, .right a:active {
+    color: #000080;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.left a:link, .left a:visited {
+    color: #000080;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.left a:hover, .left a:active {
+    color: #000080;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* The brief for the project. */
+
+.briefbig {
+    justify-content: center;
+}
+
+.brief {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.top {
+    color: #1E2952;
+    font-size: 36px;
+}
+
+.bot {
+    color: #000080;
+    font-size: 18px;
+    display: flex;
+    margin-left: auto;
+}
+
+/* The Response */
+
+.responsebig {
+    justify-content: center;
+    background-color: #FAA000;
+}
+
+.response {
+    flex-direction: column;
+}
+
+/* Inspiration for the response */
+
+.inspre {
+    background-color: #FAA000;
+    justify-content: center;
+}
+
+.insp {
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.insp .right {
+    flex-direction: column;
+}
+.insp .left {
+    flex-direction: column;
+}
+
+.mage img {
+    width: 25vw;
+    height: 35vh;
+    border-radius: 16px;
+}
+
+/* The Prototypes */
+
+.proto {
+    justify-content: center;
+}
+
+.mage iframe {
+    width: 25vw;
+    height: 35vh;
+    border-radius: 16px;
+}
+
+/* The final input and the output video */
+
+.finalbig {
+    justify-content: center;
+    background-color: #FAA000;
+}
+
+.final {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.fi img {
+    width: 75vw;
+    height: auto;
+    border-radius: 16px;
+}
+
+.fv iframe {
+    width: 75vw;
+    height: 45vh;
+    border-radius: 16px;
+}
+
+/* Learnings */
+
+.learnbig {
+    justify-content: center;
+}
+
+.learn {
+    flex-direction: column;
+}
+
+/* The team */
+
+.teambig {
+    justify-content: center;
+}
+
+.team {
+    flex-direction: column;
+    gap: 32px;
+}
+
+.team .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* The footer which is common for all the pages */
+
+.footer {
+    background-color: #DFFF00;
+    justify-content: center;
+}
+
+.footer1 {
+    justify-content: space-between;
+    font-size: 18px;
+    color: #000080;
+    align-items: center;
+}
+
+button {
+    padding: 1px;
+    border-radius: 8px;
+}
+
+.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt a i {
+    color: #1E2952;
+    width: 2.5vw;
+    height: 2.5vw
+}
