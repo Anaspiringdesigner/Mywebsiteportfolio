@@ -16,6 +16,7 @@ body {
 
 .headbig,
 .pvstatement,
+.hobint,
 .footer {
     width: 100vw;
     padding: 24px;
@@ -27,6 +28,7 @@ body {
 .header,
 .welcome,
 .pvs,
+.hobint1,
 .footer1 {
     width: 75vw;
     display: flex;
@@ -113,8 +115,17 @@ body {
 
 /* Interests and Hobbies */
 
+.hobint {
+    justify-content: center;
+    background-color: #FFA000;
+}
 
-
+.hobint1 {
+    font-size: 24px;
+    flex-direction: column;
+    color: #1E2952;
+    gap: 32px;
+}
 /* The footer which is common for all the pages */
 
 .footer {
