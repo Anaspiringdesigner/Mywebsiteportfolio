@@ -244,7 +244,7 @@ body {
 
 .tihvideo1 {
     position: relative;
-    padding-top: 177.78%; /*9:16 aspect ratio*/
+    padding-bottom: 56.25%; /*9:16 aspect ratio*/
     height: 0;
     overflow: hidden;
 }
