@@ -23,6 +23,7 @@ body {
     width: 100vw;
     padding: 24px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Setting the sub container's width */
@@ -244,7 +245,7 @@ body {
 
 .tihvideo1 {
     position: relative;
-    padding-bottom: 56.25%; /*9:16 aspect ratio*/
+    padding-top: 56.25%; /*9:16 aspect ratio*/
     height: 0;
     overflow: hidden;
 }
