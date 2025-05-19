@@ -9,7 +9,7 @@
 /* Font setting for the whole website */
 
 body {
-    font-size: "Merriweather", serif;
+    font-family: "Merriweather", serif;
 }
 
 /* Colors the backgrounds of the top-level containers */
