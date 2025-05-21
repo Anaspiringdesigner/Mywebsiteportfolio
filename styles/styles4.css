@@ -1,4 +1,5 @@
 /* Declaration to set margins, and make everything border-box */
+/* Styles CPS */
 
 * {
     padding: 0;
@@ -9,7 +10,7 @@
 /* Font setting for the whole website */
 
 body {
-    font-size: "Merriweather", serif;
+    font-family: "Merriweather", serif;
 }
 
 /* Colors the backgrounds of the top-level containers */
@@ -149,9 +150,10 @@ body {
 }
 
 .mage img {
-    width: 25vw;
-    height: 35vh;
-    border-radius: 16px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
 }
 
 /* The Prototypes */
@@ -181,9 +183,10 @@ body {
 }
 
 .fi img {
-    width: 75vw;
+    max-width: 100%;
     height: auto;
-    border-radius: 16px;
+    display: block;
+    border-radius: 5%;
 }
 
 .fv iframe {

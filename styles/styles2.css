@@ -1,5 +1,7 @@
 /* Declaration to set margins, and make everything border-box */
 
+/* Styles About Me */
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +11,7 @@
 /* Font setting for the whole website */
 
 body {
-    font-size: "Merriweather", serif;
+    font-family: "Merriweather", serif;
 }
 
 /* Colors the backgrounds of the top-level containers */
@@ -22,6 +24,7 @@ body {
     width: 100vw;
     padding: 24px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Setting the sub container's width */
@@ -91,8 +94,10 @@ body {
 }
 
 .welcome img {
-    width: 30vw;
-    border-radius: 700px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
 }
 
 .selfintro {
@@ -162,12 +167,15 @@ body {
 
 .frames {
     justify-content: space-between;
+    gap: 16px;
 }
 
 .frames a img {
-    width: 20vw;
+    max-width: 100%;
     height: auto;
-    border-radius: 16px;
+    display: block;
+    border-radius: 5%;
+    border: 1px solid #000080;
 }
 
 /* The footer which is common for all the pages */

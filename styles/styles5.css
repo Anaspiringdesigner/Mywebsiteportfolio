@@ -1,4 +1,5 @@
 /* Declaration to set margins, and make everything border-box */
+/* Styles Terrible ideas hack */
 
 * {
     padding: 0;
@@ -9,7 +10,7 @@
 /* Font setting for the whole website */
 
 body {
-    font-size: "Merriweather", serif;
+    font-family: "Merriweather", serif;
 }
 
 /* Colors the backgrounds of the top-level containers */
@@ -23,6 +24,7 @@ body {
     width: 100vw;
     padding: 24px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Setting the sub container's width */
@@ -114,9 +116,10 @@ body {
 }
 
 .tp img {
-    width: 75vw;
+    max-width: 100%;
     height: auto;
-    border-radius: 32px;
+    display: block;
+    border-radius: 5%;
 }
 
 /* The reel */
@@ -127,11 +130,18 @@ body {
 
 .reel {
     justify-content: center;
+    position: relative;
+    padding-top: 56.25%;
+    height: 0;
+    overflow: hidden;
 }
 
 .reel iframe {
-    width: auto;
-    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     border-radius: 16px;
 }
 

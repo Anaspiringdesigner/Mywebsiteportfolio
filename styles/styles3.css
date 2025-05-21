@@ -1,4 +1,5 @@
 /* Declaration to set margins, and make everything border-box */
+/* Styles AWards */
 
 * {
     padding: 0;
@@ -9,7 +10,7 @@
 /* Font setting for the whole website */
 
 body {
-    font-size: "Merriweather", serif;
+    font-family: "Merriweather", serif;
 }
 
 /* Colors the backgrounds of the top-level containers */
@@ -24,6 +25,7 @@ body {
     width: 100vw;
     padding: 24px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Setting the sub container's width */
@@ -94,10 +96,10 @@ body {
 }
 
 .mage img {
-    width:75vw;
+    max-width: 100%;
     height: auto;
-    border-radius: 32px;
-    padding: 24px;
+    display: block;
+    border-radius: 5%;
 }
 
 .desc {
